@@ -306,7 +306,7 @@ namespace MessagePack
         }
 
         /// <summary>
-        /// Deserializes the entire content of a <see cref="Stream"/>.
+        /// Deserializes the entire content of a <see cref="Stream"/>, seek position updated to the next byte after last deserialized byte for object T.
         /// </summary>
         /// <typeparam name="T">The type of value to deserialize.</typeparam>
         /// <param name="stream">
@@ -355,7 +355,7 @@ namespace MessagePack
         }
 
         /// <summary>
-        /// Deserializes the entire content of a <see cref="Stream"/>.
+        /// Deserializes the entire content of a <see cref="Stream"/>, seek position updated to the next byte after last deserialized byte for object T.
         /// </summary>
         /// <typeparam name="T">The type of value to deserialize.</typeparam>
         /// <param name="stream">
